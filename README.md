@@ -1,7 +1,10 @@
 # ARKitPlusVR
 VR with SceneKit &amp; ARKit.
 
-More details
+This project demonstrates the using of ARKit to make the movement in VR scene possible.
 
-![image]()
+More Details
+http://www.jianshu.com/p/4f9809021142
+
+![image](https://github.com/WorkerAmo/ARKitPlusVR/blob/master/Demo.gif)
 
