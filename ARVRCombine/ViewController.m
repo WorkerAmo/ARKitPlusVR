@@ -5,15 +5,18 @@
 @property (nonatomic, strong) IBOutlet ARSCNView *sceneView;
 
 @end
-    
+
 @implementation ViewController
 {
     SCNNode *_cameraNode;
     matrix_float4x4 _transform;
+    BOOL _didFindNewPlane;
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    _didFindNewPlane = 0;
     
     // *********************************************************
     // AR
@@ -111,3 +114,4 @@
 }
 
 @end
+
