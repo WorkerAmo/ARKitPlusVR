@@ -1,13 +1,6 @@
-# ARKitPlusVR
+#ARKitPlusVR
 VR with SceneKit &amp; ARKit. 
 This project demonstrates the using of ARKit to make the movement in VR scene possible.
-
-##GIF
-![image](https://github.com/WorkerAmo/ARKitPlusVR/blob/master/demo00.gif)
-
-![image](https://github.com/WorkerAmo/ARKitPlusVR/blob/master/demo02.gif)
-
-![image](https://github.com/WorkerAmo/ARKitPlusVR/blob/master/demo01.gif)
 
 ##Requirements
 * A9 ( iPhone 6S or later )
@@ -17,6 +10,11 @@ This project demonstrates the using of ARKit to make the movement in VR scene po
 ##More Details
 http://www.jianshu.com/p/4f9809021142
 
+##GIF
+
+![image](https://github.com/WorkerAmo/ARKitPlusVR/blob/master/demo00.gif)
+![image](https://github.com/WorkerAmo/ARKitPlusVR/blob/master/demo02.gif)
+![image](https://github.com/WorkerAmo/ARKitPlusVR/blob/master/demo01.gif)
 
 
 
