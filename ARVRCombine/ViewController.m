@@ -53,12 +53,14 @@
     // Camera left
     SCNNode *cameraNodeLeft = [SCNNode node];
     cameraNodeLeft.camera = [SCNCamera camera];
+    [cameraNodeLeft.camera setZNear:0.001f];
     [cameraNodeLeft setPosition:SCNVector3Make(-0.05, 0, 0)];
     [_cameraNode addChildNode:cameraNodeLeft];
     
     // Camera right
     SCNNode *cameraNodeRight = [SCNNode node];
     cameraNodeRight.camera = [SCNCamera camera];
+    [cameraNodeRight.camera setZNear:0.001f];
     [cameraNodeRight setPosition:SCNVector3Make(0.05, 0, 0)];
     [_cameraNode addChildNode:cameraNodeRight];
     
